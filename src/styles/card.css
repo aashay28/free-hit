@@ -1,39 +1,3 @@
-.filter-section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  background-color: #232427;
-  margin-block: 3rem;
-}
-
-.background-button {
-  background-color: #fff;
-  color: #000;
-  width: 9.5rem;
-  height: 2rem;
-  border: 2px solid #fff;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  gap: .5rem;
-}
-
-.background-button:hover {
-  background-color: #232427;
-  color: #fff;
-}
-
-.background-button-selected {
-  background-color: #232427;
-  color: #fff;
-}
-.background-button-selected .icons, .background-button:hover .icons{
-  fill:white
-}
-
 .cols {
   display: flex;
   flex-wrap: wrap;

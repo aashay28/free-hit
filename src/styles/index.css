@@ -5,13 +5,18 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap);
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Poppins, sans-serif;
+}
 *,
 .inner,
 a {
   box-sizing: border-box;
   text-decoration: none;
 }
-
 *,
 a {
   margin: 0;
@@ -22,7 +27,7 @@ a {
 
 #root,
 html {
-  background-color: #232427;
+  background-color: #f3f4f6;
 }
 
 h1 {
@@ -87,7 +92,7 @@ footer {
   .front {
     min-height: 340px;
   }
-  input[type="text"] {
+  input[type='text'] {
     margin-bottom: 15px;
   }
 }

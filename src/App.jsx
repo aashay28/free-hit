@@ -56,6 +56,7 @@ function App() {
   return (
     <>
       <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+
       <Card
         filterProduct={filterProduct}
         filteredProducts={filteredProducts}
